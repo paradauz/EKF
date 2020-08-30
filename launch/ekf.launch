@@ -1,0 +1,7 @@
+<launch>
+  <node name="ahrs_init" pkg="ekf" type="ekf_ahrs_init" output="screen"/>
+
+  <node name="ahrs_ekf" pkg="ekf" type="ekf_ahrs_ekf" output="screen"/>
+  
+  <node name="pose_ekf" pkg="ekf" type="ekf_pose_ekf" output="screen"/>
+</launch>
