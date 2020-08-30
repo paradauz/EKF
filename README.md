@@ -8,3 +8,6 @@ Visulization of the AHRS can be done in Rviz:
   Set one to "ENU" and the second one to "quat"
 
 Position estimation is published to /odom topic
+
+Useful cheat sheet for Eigen library:
+https://gist.github.com/gocarlos/c91237b02c120c6319612e42fa196d77
