@@ -3,9 +3,9 @@ This is the implementation of an extended Kalman filter for the localization of 
 
 To launch type roslaunch ekf ekf.launch
 Visulization of the AHRS can be done in Rviz:
-  Launch Rviz 
-  Add two axis  
-  Set one to "ENU" and the second one to "quat" 
+  Launch Rviz <br />
+  Add two axis <br />
+  Set one to "ENU" and the second one to "quat" <br />
 
 Position estimation is published to /odom topic
 
